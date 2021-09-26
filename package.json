@@ -9,7 +9,13 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "color": "^4.0.1",
+    "axios": "^0.21.4",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
     "inquirer": "^8.1.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.1.2",
+    "@types/node": "^16.10.1"
   }
 }
